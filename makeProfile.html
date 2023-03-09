@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<h1>Welcome To Friend Finder!</h1>
+  <nav>
+    <ul id="pageBar">
+      <li>
+        <a href="home.html">Home</a>
+      </li>
+      <li>
+        <a href="makeProfile.html">Retake Quiz</a>
+      </li>
+      <li>
+        <a href="quizzes.html">Personality Quizzes</a>
+      </li>
+    </ul>
+  </nav>
+  <link rel="stylesheet" href="/style.css" />
+  <script src="/script.js" defer></script>
+  <h3>Build your mini profile to find a potential friend near you!</h3
+                                                    <br>
+  <label for="name">Name: </label>
+  <input type="text" id="name" name="name" placeholder="Enter answer"><br>
+  <label for="age">Age: </label>
+  <input type="text" id="age" name="age" placeholder="Enter answer"><br>
+  <label for="email">Email: </label>
+  <input type="text" id="email" name="email" placeholder="Enter answer"><br><br>
+  <label for="hobby">Favorite hobby: </label>
+  <input type="text" id="hobby" name="hobby" placeholder="Enter answer"><br>
+  <label for="food">Favorite food: </label>
+  <input type="text" id="food" name="food" placeholder="Enter answer"><br>
+  <label for="college">Potential college: </label>
+  <input type="text" id="college" name="college" placeholder="Enter answer"><br>
+  <label for="sport">Favorite sport: </label>
+  <input type="text" id="sport" name="sport" placeholder="Enter answer"><br><br>
+  <label for="picture">Profile Picture: </label>
+  <input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)">
+  <button type="button" id="scriptBtn">Done</button>
+  <div class="card" id="makeProfile">
+    <img id="output" alt="profile picture" style="width:100%">
+    <h1 id="fullName">John Doe</h1>
+    <p id="title">Example, CEO & Founder</p>
+    <p id="education">Harvard University</p>
+    <p class="fa fa-dribbble" id="favHobby"></p>
+    <p class="fa fa-dribbble" id="favFood"></p>
+    <p class="fa fa-dribbble" id="favSport"></p>
+    <p><button>Connect</button></p>
+  </div>
+
+  
+
+</html>          

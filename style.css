@@ -1,0 +1,163 @@
+
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;;
+  background-color: #F6E0B5;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+h1 {
+  font-family: Tahoma;
+  color: #418134;
+  text-align:center;
+}
+
+h2{
+  font-family: Tahoma;
+  color: #418134;
+  text-align:center;
+  font-style: italic;
+}
+
+h3 {
+  font-family: Tahoma;
+  color:#418134;
+  text-align:center;
+  font-style: italic;
+  text-transform: uppercase;
+ }
+
+ul{
+  padding: 1em;
+  background-color: #e1eec7;
+  text-align: center;
+  list-style-type: none
+}
+
+li{
+  font-family: serif;
+  margin: 0.5em;
+  display: inline-block;
+}
+
+label {
+font-weight: bold;
+}
+
+img {
+  border-radius: 25px;
+  display: block;
+  margin: 0 auto;
+  
+
+}
+
+.row {
+  display: flex;
+  padding: 30px;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.column img {
+  margin-top: 50px;
+  vertical-align: middle;
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  font-family: Tahoma;
+  font-weight: bold;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  background-color: #418134;
+  color: #e1eec7;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: #e1eec7;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+#purpose{
+  font-size: x-large;
+  
+}
+
+.login-page{
+  text-align: center;
+  
+}
+
+html, home{
+  background-color:F6EOB5;
+}
+
+#image{
+  height:60;
+  width:130;
+}
+
+#purp{
+  font-size: large;
+  font-family: Tahoma;
+  font-style:italic;
+  text-align: center;
+  color: #418134;
+}
+
+#pageBar{
+  background-color: #418134;
+  align-content: center;
+  font-family: Tahoma;
+}
+
+.login-page{
+  color: #418134;
+}
+
+#login{
+  text-align: center;
+}
+
+input[type=button]{
+  color: #418134;
+  border-color: #418134;
+  font-weight: bold;
+  background-color: Transparent;
+  border-radius: 5px;
+}
+
+input[type=button]:hover{
+  background-color: #418134;
+  color: #e1eec7;
+}
